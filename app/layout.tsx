@@ -23,7 +23,7 @@ export default function RootLayout({
       <body
         className={`${geistNunito.variable} antialiased`}
       >
-        <main className="bg-gray-100 min-h-screen">
+        <main className="bg-gray-100 min-h-screen flex flex-col items-center">
           <nav className="bg-white w-full h-16 flex items-center justify-center">
             <section className="container flex items-center gap-3">
               <Image 
